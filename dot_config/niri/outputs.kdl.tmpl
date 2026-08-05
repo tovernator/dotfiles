@@ -1,4 +1,4 @@
-{{ range $index, $data := output "niri" "msg" "-j" "outputs" | fromJson }}
+{{ range $index, $data := .niri_outputs }}
 {{- $i := 0 -}}
 output "{{ $data.name  }}" {
     {{range .modes}}
