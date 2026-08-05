@@ -1,12 +1,3 @@
-// output "BOE BOE HF Unknown" {
-//     mode "1920x1080@59.996"
-//     scale 1.0
-//     position x=0 y=0
-//     variable-refresh-rate
-//     focus-at-startup
-//     transform "normal"
-// }
-
 {{ range $index, $data := output "niri" "msg" "-j" "outputs" | fromJson }}
 {{- $i := 0 -}}
 output "{{ $data.name  }}" {
