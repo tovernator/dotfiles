@@ -1,9 +1,10 @@
 #!/bin/bash
 rustup toolchain install stable
 
-if file paru; then
+file paru
+if [$? -eq 0]; then
     echo "Paru is already installed"
-    exit 0
+    exit 0;
 fi
 
 echo "Installing paru"

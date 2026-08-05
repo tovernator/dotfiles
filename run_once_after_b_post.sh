@@ -1,5 +1,7 @@
 #!/bin/bash
 
-sudo cp $HOME/.local/share/chezmoi/etc/greetd.toml /etc/greetd/config.toml
+sudo cp -r $HOME/.local/share/chezmoi/etc /etc/
+sudo cp -r $HOME/.local/share/chezmoi/var /var/
+
 sudo systemctl enable --now upower
 sudo systemctl enable --now greetd
