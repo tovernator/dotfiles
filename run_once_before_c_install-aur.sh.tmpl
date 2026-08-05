@@ -3,7 +3,7 @@
 {{ if .packages.aur -}}
 echo "Installing AUR packages"
 
-paru -S \
+paru -Syu --needed \
 {{ range .packages.aur -}}
  {{ .  }} \
 {{ end -}}
