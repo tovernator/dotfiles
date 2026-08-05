@@ -7,4 +7,5 @@ order = [ "main", "sub" ]
 [audio]
 enable_sounds = true
 
-
+[shell]
+setup_wizard_enabled = false
