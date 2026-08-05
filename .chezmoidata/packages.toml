@@ -22,6 +22,7 @@ pacman = [
     "nautilus",
     "keepassxc",
     "rclone",
+    "firefox",
 ]
 aur = [
     "noctalia-greeter",
