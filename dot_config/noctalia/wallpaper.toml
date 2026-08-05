@@ -1,5 +1,3 @@
 [wallpaper]
 enabled             = true
 fill_mode           = "crop"
-[wallpaper.default]
-path = "/home/tover/Pictures/Wallpapers/wallpaper.jpg"
