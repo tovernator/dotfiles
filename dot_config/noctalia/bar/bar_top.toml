@@ -1,7 +1,7 @@
 [bar.top]
 start = ["launcher", "control-center", "keybinds", "workspaces"]
 center = ["clock"]
-end = ["tray", "notifications", "clipboard", "bluetooth", "network", "battery", "volume", "session"]
+end = ["tray", "notifications", "clipboard", "audio", "bluetooth", "network", "battery", "session"]
 
 enabled = true
 position = "top"
@@ -17,11 +17,13 @@ thickness = 32
 [widget.keybinds]
 type = "kenn/keybind-cheatsheet:keybinds"
 
+[widget.audio]
+type = "blackbartblues/audio-switcher:widget"
+
 [widget.network]
 show_label = false
 
-[widget.volume]
-show_label = false
+
 
 [widget.battery]
 show_label = false

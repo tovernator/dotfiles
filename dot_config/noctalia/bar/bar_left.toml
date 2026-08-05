@@ -1,7 +1,7 @@
 [bar.left]
-start = ["arch", "wallpaper", "wallhaven"]
+start = ["shelly"]
 center = []
-end = []
+end = [ "wallpaper", "wallhaven"]
 
 enabled = true
 position = "left"
@@ -19,5 +19,5 @@ thickness = 32
 [widget.wallhaven]
 type = "noctalia/wallhaven:wallhaven"
 
-[widget.arch]
-type = "yuuto/arch-updater:widget"
+[widget.shelly]
+type = "joshuaslate/shelly"

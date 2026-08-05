@@ -3,3 +3,6 @@ files = ["bar/", "plugins.toml", "settings.toml", "shell.toml", "theme.toml", "w
 
 [bar]
 order = [ "top", "left" ]
+
+[audio]
+enable_sounds = true

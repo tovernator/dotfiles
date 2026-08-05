@@ -15,14 +15,13 @@ auto_update = true
 
 
 [plugins]
-enabled = [ "noctalia/wallhaven", "kenn/keybind-cheatsheet", "yuuto/arch-updater" ]
+enabled = [ "noctalia/wallhaven", "kenn/keybind-cheatsheet", "josuaslate/shelly", "blackbartblues/audio-switcher" ]
 
-[plugin_settings."yuuto/arch-updater"]
-assume_yes = true
-aur_helper = "paru"
-flatpak_enabled = false
-panel_open_near_click = false
-panel_placement = "floating"
 
 [plugin_settings."kenn/keybind-cheatsheet"]
 cheatsheet_position = "auto"
+
+[plugin_settings."blackbartblues/audio-switcher"]
+audio-switcher_placement = "floating"
+audio-switcher_position = "auto"
+show_percentage = false
