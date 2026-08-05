@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file paru
+which paru
 if [ $? -eq 0 ]; then
     echo "Paru is already installed"
     exit 0;
