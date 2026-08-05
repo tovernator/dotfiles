@@ -15,9 +15,13 @@ pacman = [
     "helix",
     "udiskie",
     "qt6-wayland",
+    "xwayland-satellite",
     "qt6ct",
     "adw-gtk-theme",
     "papirus-icon-theme",
+    "nautilus",
+    "keepassxc",
+    "rclone",
 ]
 aur = [
     "noctalia-greeter",

@@ -15,7 +15,7 @@ auto_update = true
 
 
 [plugins]
-enabled = [ "noctalia/wallhaven", "kenn/keybind-cheatsheet", "josuaslate/shelly", "blackbartblues/audio-switcher" ]
+enabled = [ "noctalia/wallhaven", "kenn/keybind-cheatsheet", "joshuaslate/shelly", "blackbartblues/audio-switcher" ]
 
 
 [plugin_settings."kenn/keybind-cheatsheet"]
