@@ -1,0 +1,28 @@
+[packages]
+pacman = [
+    "base-devel",
+    "git",
+    "greetd",
+    "niri",
+    "noctalia",
+    "rustup",
+    "mold",
+    "starship",
+    "zellij",
+    "alacritty",
+    "fish",
+    "gnome-keyring",
+    "helix",
+    "udiskie",
+    "qt6-wayland",
+    "qt6ct",
+    "adw-gtk-theme",
+    "papirus-icon-theme",
+]
+paru = [
+    "noctalia-greeter",
+]
+
+cargo = [
+
+]

@@ -1,0 +1,3 @@
+[cloud]
+remote = "gdrive-crypt:/"
+mount_path = "$HOME/Drive"
