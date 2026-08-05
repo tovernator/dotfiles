@@ -1,8 +1,8 @@
 binds {
 
     // #"Applications"
-    Mod+Return repeat=false         hotkey-overlay-title="Terminal"                { spawn "alacritty"; }
-    Mod+Shift+Return repeat=false   hotkey-overlay-title="Appliction Launcher"     { spawn-sh "noctalia msg panel-toggle launcher"; }
+    Mod+T repeat=false         hotkey-overlay-title="Terminal"                { spawn "alacritty"; }
+    Mod+Return repeat=false   hotkey-overlay-title="Appliction Launcher"     { spawn-sh "noctalia msg panel-toggle launcher"; }
     Mod+Comma repeat=false          hotkey-overlay-title="Settings"                { spawn-sh "noctalia msg settings-toggle"; }
     Mod+B repeat=false              hotkey-overlay-title="Firefox"                 { spawn-sh "firefox --new-window"; }
     Mod+Shift+B repeat=false        hotkey-overlay-title="Firefox Private Window"  { spawn-sh "firefox --private-window"; }
