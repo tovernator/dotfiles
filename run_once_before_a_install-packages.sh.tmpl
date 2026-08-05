@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S \
+sudo pacman -Syu \
 {{ range .packages.pacman -}}
  {{ .  }} \
 {{ end -}}
