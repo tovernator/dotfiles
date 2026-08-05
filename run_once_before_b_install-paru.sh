@@ -1,5 +1,4 @@
 #!/bin/bash
-rustup toolchain install stable
 
 file paru
 if [$? -eq 0]; then
