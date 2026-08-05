@@ -1,7 +1,7 @@
 #!/bin/bash
-if [ $SHELL -ne "/bin/fish" ];
+if [ $SHELL == "/bin/fish" ];
 then
-chsh -s /bin/fish $USER;
-else
 echo "Shell is already /bin/fish";
+else
+chsh -s /bin/fish $USER;
 fi
