@@ -6,6 +6,8 @@ if [$? -eq 0]; then
     exit 0;
 fi
 
+rustup toolchain install stable
+
 echo "Installing paru"
 
 git clone https://aur.archlinux.org/paru.git

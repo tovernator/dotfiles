@@ -6,5 +6,3 @@ sudo pacman -Syu --needed \
 {{ range .packages.pacman -}}
  {{ . }} \
 {{ end -}}
-
-rustup toolchain install stable
