@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo pacman -S \
+{{ range .packages.pacman -}}
+ {{ .  }} \
+{{ end -}}

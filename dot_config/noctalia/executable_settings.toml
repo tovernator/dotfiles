@@ -1,0 +1,5 @@
+[include]
+files = ["bar/", "plugins.toml", "settings.toml", "shell.toml", "theme.toml", "wallpaper.toml"]
+
+[bar]
+order = [ "top", "left" ]

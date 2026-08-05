@@ -1,0 +1,28 @@
+
+[[plugins.source]]
+name     = "official"
+kind     = "git"
+location = "https://github.com/noctalia-dev/official-plugins"
+enabled  = true
+auto_update = true
+
+[[plugins.source]]
+name     = "community"
+kind     = "git"
+location = "https://github.com/noctalia-dev/community-plugins"
+enabled  = true
+auto_update = true
+
+
+[plugins]
+enabled = [ "noctalia/wallhaven", "kenn/keybind-cheatsheet", "yuuto/arch-updater" ]
+
+[plugin_settings."yuuto/arch-updater"]
+assume_yes = true
+aur_helper = "paru"
+flatpak_enabled = false
+panel_open_near_click = false
+panel_placement = "floating"
+
+[plugin_settings."kenn/keybind-cheatsheet"]
+cheatsheet_position = "auto"
