@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source $HOME/.cargo/env
 {{ range .packages.cargo -}}
 cargo install {{ . -}}
 {{ end }}

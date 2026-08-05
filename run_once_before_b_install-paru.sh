@@ -2,8 +2,7 @@
 rustup toolchain install stable
 source $HOME/.cargo/env
 
-file paru
-if [$? -ne 0]; then
+if file paru; then
     echo "paru is already installed"
     exit 0
 fi
