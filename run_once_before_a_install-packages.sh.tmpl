@@ -2,7 +2,7 @@
 #
 
 echo "Installing core packages"
-sudo pacman -Syu \
+sudo pacman -Syu --needed \
 {{ range .packages.pacman -}}
- {{ .  }} \
+ {{ . }} \
 {{ end -}}
