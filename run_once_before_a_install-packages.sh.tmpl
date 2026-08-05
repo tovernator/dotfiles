@@ -1,5 +1,7 @@
 #!/bin/bash
+#
 
+echo "Installing core packages"
 sudo pacman -Syu \
 {{ range .packages.pacman -}}
  {{ .  }} \
