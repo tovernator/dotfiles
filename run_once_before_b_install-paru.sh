@@ -2,9 +2,11 @@
 rustup toolchain install stable
 
 if file paru; then
-    echo "paru is already installed"
+    echo "Paru is already installed"
     exit 0
 fi
+
+echo "Installing paru"
 
 git clone https://aur.archlinux.org/paru.git
 cd paru

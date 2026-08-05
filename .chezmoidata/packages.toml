@@ -19,7 +19,7 @@ pacman = [
     "adw-gtk-theme",
     "papirus-icon-theme",
 ]
-paru = [
+aur = [
     "noctalia-greeter",
 ]
 

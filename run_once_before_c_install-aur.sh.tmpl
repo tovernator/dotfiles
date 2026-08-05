@@ -1,6 +1,13 @@
 #!/bin/bash
 
+{{ if .packages.aur -}}
+echo "Installing AUR packages"
+
 paru -S \
-{{ range .packages.paru -}}
+{{ range .packages.aur -}}
  {{ .  }} \
 {{ end -}}
+
+{{- else -}}
+echo "No AUR packages to be installed"
+{{- end -}}

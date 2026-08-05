@@ -1,5 +1,12 @@
 #!/bin/bash
 
+{{ if .packages.cargo -}}
+echo "Installing cargo packages"
+
 {{ range .packages.cargo -}}
 cargo install {{ . -}}
 {{ end }}
+
+{{- else -}}
+echo "No cargo packages to be installed"
+{{- end -}}
