@@ -19,8 +19,8 @@ binds {
     XF86MonBrightnessDown           hotkey-overlay-title="Brightness Down"         { spawn-sh "noctalia msg brightness-down"; }
 
     // #"Window Management"
-    Mod+Minus                       hotkey-overlay-title="Decrease window width by half"               { set-column-width "-50%"; }
-    Mod+Equal                       hotkey-overlay-title="Increase window width by half" { set-column-width "+50%"; }
+    Mod+Minus                       hotkey-overlay-title="Decrease window width by a quarter"               { switch-preset-column-width-back; }
+    Mod+Equal                       hotkey-overlay-title="Increase window width by a quarter" { switch-preset-column-width; }
     Mod+M repeat=false              hotkey-overlay-title="Maximize window" { maximize-column; }
     Mod+F repeat=false              hotkey-overlay-title="Fullscreen" { fullscreen-window; }
     Mod+Q repeat=false              hotkey-overlay-title="Close window" { close-window; }

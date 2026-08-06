@@ -6,7 +6,7 @@ include "input.kdl"
 include "rules.kdl"
 include "binds.kdl"
 include "outputs.kdl"
-
+include "events.kdl"
 
 environment {
   QT_QPA_PLATFORMTHEME "qt6ct"
